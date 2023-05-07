@@ -414,3 +414,6 @@ print(resultado)
 
 #--------------------------------------
 mi_cadena = "python, JS, java, C"
+
+#............................................
+#REGEX: EXPPRECIONES REGULARES

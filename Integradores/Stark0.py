@@ -85,7 +85,7 @@ def dividir(dividendo:float, divisor:int) -> float:
     if divisor != 0:
         divicion = dividendo / divisor 
     else:
-        division = 0
+        divicion = 0
     return divicion 
 
 def cantidad_datos(lista:list)->int:
