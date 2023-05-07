@@ -97,5 +97,6 @@ def generar_csv(path:str, lista:list):
         registro = registro.format(tema["title"], tema["views"], tema["length"], tema ["img_url"], tema["url"], tema["date"])
         archivo.write(registro)
     archivo.close()
+    print()
 generar_csv("nueva_lista.csv", lista_bzrp)
 #lista = parser_csv("nueva_lista.csv")
